@@ -1,0 +1,86 @@
+[
+ {
+  "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/Ex401.vhd",
+  "InstLine" : 5,
+  "InstName" : "Ex401",
+  "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/Ex401.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "Ex401",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/Ex401.vhd",
+    "InstLine" : 31,
+    "InstName" : "Divider_1Hz",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/Devider_1Hz.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Devider_1Hz"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/Ex401.vhd",
+    "InstLine" : 39,
+    "InstName" : "osc_100hz_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "OSC_100Hz",
+    "SubInsts" : [
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+      "InstLine" : 44,
+      "InstName" : "osc_source",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/gowin_osc/gowin_osc.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_OSC"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+      "InstLine" : 49,
+      "InstName" : "oscdiv5_1",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+      "InstLine" : 57,
+      "InstName" : "oscdiv5_2",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+      "InstLine" : 65,
+      "InstName" : "oscdiv5_3",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+      "InstLine" : 73,
+      "InstName" : "oscdiv5_4",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+      "InstLine" : 81,
+      "InstName" : "oscdiv5_5",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/OSC_100Hz.vhd",
+      "InstLine" : 89,
+      "InstName" : "oscdiv8",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/src/gowin_clkdiv/gowin_clkdiv8.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV8"
+     }
+    ]
+   }
+  ]
+ }
+]

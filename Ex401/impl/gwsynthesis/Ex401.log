@@ -1,0 +1,46 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Ex401.vhd'
+Analyzing entity 'ex401'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Ex401.vhd":5)
+Analyzing architecture 'rtl_401'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Ex401.vhd":13)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_osc\gowin_osc.vhd'
+Analyzing entity 'gowin_osc'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_osc\gowin_osc.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_osc\gowin_osc.vhd":19)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv8.vhd'
+Analyzing entity 'gowin_clkdiv8'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv8.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv8.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv5.vhd'
+Analyzing entity 'gowin_clkdiv5'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv5.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv5.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\OSC_100Hz.vhd'
+Analyzing entity 'osc_100hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\OSC_100Hz.vhd":5)
+Analyzing architecture 'rtl_osc_100hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\OSC_100Hz.vhd":13)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Devider_1Hz.vhd'
+Analyzing entity 'devider_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Devider_1Hz.vhd":5)
+Analyzing architecture 'rtl_devider_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Devider_1Hz.vhd":14)
+Processing 'Ex401(RTL_401)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Ex401.vhd":5)
+Processing 'Devider_1Hz(RTL_Devider_1Hz)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\Devider_1Hz.vhd":5)
+Processing 'OSC_100Hz(RTL_OSC_100Hz)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\OSC_100Hz.vhd":5)
+Processing 'Gowin_OSC(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_osc\gowin_osc.vhd":13)
+Processing 'Gowin_CLKDIV5(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv5.vhd":13)
+Processing 'Gowin_CLKDIV8(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\src\gowin_clkdiv\gowin_clkdiv8.vhd":13)
+NOTE  (EX0101) : Current top module is "Ex401"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\impl\gwsynthesis\Ex401.vg" completed
+[100%] Generate report file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\impl\gwsynthesis\Ex401_syn.rpt.html" completed
+GowinSynthesis finish
