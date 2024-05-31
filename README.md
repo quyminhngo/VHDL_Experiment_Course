@@ -2,10 +2,11 @@
 ## CHAPTER 4 - SEQUENTIAL CIRCUIT DESIGN
   
 > ![Sequential Circuit Design Model](Ex401/img/SCDModel.png)
-  <br>
 > ![Timing](Ex401/img/timing.png)
-  <br>
 > <em> Reference by "RTL Hardware Design Using VHDL" by PONG P. CHU - Cleveland State University </em>
+
+
+
 
 
 
