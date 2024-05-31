@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="FullCounter_3_Bit">
+ <SubModule name="led_decoder_4_bit_inst" Lut="7"/>
+ <SubModule name="osc_100hz_inst">
+  <SubModule name="osc_source"/>
+  <SubModule name="oscdiv5_1"/>
+  <SubModule name="oscdiv5_2"/>
+  <SubModule name="oscdiv5_3"/>
+  <SubModule name="oscdiv5_4"/>
+  <SubModule name="oscdiv5_5"/>
+  <SubModule name="oscdiv8"/>
+ </SubModule>
+ <SubModule name="counter_3_bit_inst" Register="4" Lut="10"/>
+ <SubModule name="devider_1hz_inst" Register="8" Lut="12"/>
+</Module>

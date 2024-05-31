@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="Ex401">
- <SubModule name="Divider_1Hz" Register="8" Lut="16"/>
+ <SubModule name="Divider_1Hz" Register="8" Lut="17"/>
  <SubModule name="osc_100hz_inst">
   <SubModule name="osc_source"/>
   <SubModule name="oscdiv5_1"/>

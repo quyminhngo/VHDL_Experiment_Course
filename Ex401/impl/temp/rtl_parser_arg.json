@@ -37,7 +37,7 @@
  ],
  "LoopLimit" : 2000,
  "ResultFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex401/impl/temp/rtl_parser.result",
- "Top" : "Devider_1Hz",
+ "Top" : "Ex401",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
 }

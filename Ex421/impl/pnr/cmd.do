@@ -1,0 +1,12 @@
+-d Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex421\impl\gwsynthesis\Ex421.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex421\src\Ex421.cst
+-cfg Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex421\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

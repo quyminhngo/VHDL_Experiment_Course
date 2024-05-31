@@ -40,6 +40,6 @@ begin
     (others => '0');
 
   -- Output logic State
-  clkout <= '0' when curr_state < mod_N/2 else
+  clkout <= '0' when curr_state = mod_N/2 else
     '1';
 end architecture;

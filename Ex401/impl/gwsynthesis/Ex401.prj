@@ -17,6 +17,7 @@
         <Option type="output_file" value="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex401\impl\gwsynthesis\Ex401.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="Ex401"/>
         <Option type="verilog_language" value="verilog-2001"/>
         <Option type="vhdl_language" value="vhdl-1993"/>
     </OptionList>
