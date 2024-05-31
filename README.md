@@ -1,7 +1,7 @@
 # Experimient RTL HARDWARE DESIGN USING VHDL
 ## CHAPTER 4 - SEQUENTIAL CIRCUIT DESIGN
   
-  > ![Sequential Circuit Design Model](Ex401/img/SCDModel.png)
+> ![Sequential Circuit Design Model](Ex401/img/SCDModel.png)
   <br>
   <br>
 > ![Timing](Ex401/img/timing.png)
