@@ -30,9 +30,6 @@ begin
                   '0' when currState = "000" else
             		currStatus;
 
-
-
-
     REGISTER_PROC : process(clk,resetn)
     begin
 		

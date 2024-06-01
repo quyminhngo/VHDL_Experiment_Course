@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="FullCounter_3_Bit">
- <SubModule name="led_decoder_4_bit_inst" Lut="7"/>
+ <SubModule name="led_decoder_3_bit_inst" Lut="7"/>
  <SubModule name="osc_100hz_inst">
   <SubModule name="osc_source"/>
   <SubModule name="oscdiv5_1"/>

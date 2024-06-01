@@ -11,7 +11,7 @@ entity FullCounter_3_Bit is
 end entity;
 
 architecture RTL_FullCounter_3_Bit of FullCounter_3_Bit is
-    component LED_Decoder_4_Bit IS
+    component LED_Decoder_3_Bit IS
     PORT(
         inp : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
         outp : OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
@@ -47,7 +47,7 @@ architecture RTL_FullCounter_3_Bit of FullCounter_3_Bit is
     signal clk: std_logic;
     signal entemp: std_logic;
 begin
-    led_decoder_4_bit_inst: LED_Decoder_4_Bit
+    led_decoder_3_bit_inst: LED_Decoder_3_Bit
     port map (
       inp  => outptemp,
       outp => led

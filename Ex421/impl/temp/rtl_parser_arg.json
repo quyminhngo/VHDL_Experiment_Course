@@ -3,27 +3,12 @@
  "Files" : [
   {
    "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/Counter_3_Bit.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
    "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/Devider_1Hz.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/OSC_100Hz.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/gowin_osc/gowin_osc.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/gowin_clkdiv/gowin_clkdiv8.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/gowin_clkdiv/gowin_clkdiv5.vhd",
    "Type" : "vhdl"
   },
   {
@@ -33,7 +18,7 @@
   },
   {
    "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/Counter_3_Bit.vhd",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/FullCounter_3_Bit.vhd",
    "Type" : "vhdl"
   },
   {
@@ -43,7 +28,22 @@
   },
   {
    "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/FullCounter_3_Bit.vhd",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/OSC_100Hz.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/gowin_clkdiv/gowin_clkdiv8.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex421/src/gowin_osc/gowin_osc.vhd",
    "Type" : "vhdl"
   }
  ],
