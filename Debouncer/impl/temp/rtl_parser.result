@@ -182,5 +182,23 @@
     "ModuleName" : "Debouncer"
    }
   ]
+ },
+ {
+  "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Debouncer/src/temp.vhd",
+  "InstLine" : 5,
+  "InstName" : "Debounce",
+  "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Debouncer/src/temp.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "Debounce",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Debouncer/src/temp.vhd",
+    "InstLine" : 17,
+    "InstName" : "DebouncerIni",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Debouncer/src/components/Debouncer.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Debouncer"
+   }
+  ]
  }
 ]

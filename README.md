@@ -66,21 +66,24 @@ Timing Diagram
 
 ## BUTTON DEBOUNCING CIRCUIT
 - Goals: When we push a button or switch a toggle switch, it probably has some glitches as the picture. The goal of this problem is to generate the glitch-free output in the all triggering edges of input signal.
-
-> <img src = "img/Switch_Debounce.jpg">
-</img>
-<br>
+![](img/Switch_Debounce.jpg)
 
 - The timing goal 
+![](img/DebounceTiming.png)
 
 - The State Diagram
+![](img/DebounceFSM.png)
 
 - The Algorithms State Machine (ASM) chart
+![](img/DebounceASM.png)
 
 - The Button debouncing circuit diagram
+![](img/DebounceCircuitDia.png)
 
-- Demonstration link: https://www.youtube.com/channel/UCi_n5XIAMVjPtJlm0RjNEPw
+- Source code:  [Debouncer](Debouncer/src/components/Debouncer.vhd)
 
+- Demonstration link: 
+- Note that: The application of this circuit will be illustrated in the following sections.
 
 
 

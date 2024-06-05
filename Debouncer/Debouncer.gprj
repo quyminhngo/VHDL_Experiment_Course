@@ -14,6 +14,7 @@
         <File path="src/sys/gowin_clkdiv5.vhd" type="file.vhdl" enable="1"/>
         <File path="src/sys/gowin_clkdiv8.vhd" type="file.vhdl" enable="1"/>
         <File path="src/sys/gowin_osc.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/temp.vhd" type="file.vhdl" enable="1"/>
         <File path="src/Debouncer.cst" type="file.cst" enable="1"/>
     </FileList>
 </Project>

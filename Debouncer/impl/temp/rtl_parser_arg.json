@@ -45,6 +45,11 @@
    "Library" : "work",
    "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Debouncer/src/components/Mod_9_Counter.vhd",
    "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Debouncer/src/temp.vhd",
+   "Type" : "vhdl"
   }
  ],
  "IncludePath" : [
