@@ -1,0 +1,27 @@
+Reading netlist file: "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\gwsynthesis\Ex426.vg"
+Parsing netlist file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\gwsynthesis\Ex426.vg" completed
+Processing netlist completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\pnr\Ex426.power.html" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\pnr\Ex426.pin.html" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\pnr\Ex426.rpt.html" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\pnr\Ex426.rpt.txt" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\pnr\Ex426.tr.html" completed
+Sat Jun 01 19:59:41 2024
+

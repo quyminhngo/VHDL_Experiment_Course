@@ -1,0 +1,34 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta-4 Education"
+//Tue Jun 04 20:03:11 2024
+
+//Source file index table:
+//file0 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/ButtonDetect/src/ButtonDetect.vhd"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+dnaL6i3EGpVf/fcCxvF39yvYkj8x7tJdckmXi53S+RrlCpWVQsoKc16eDBHfsQk+q1vED8977h83
+bhZZC6TkqK5YMNzxUQeO9rOIjijLEw8Dx7LPsUDKbICYXcCgBhswBrD7nTkQpZlfZEB4KeLC2RFS
+vJhNqIvwcISEFmcl5MEejf4ogmF/HlTAoOl9AEcHrGo9Prz7pfNgI2AsxKKr9cXugrHTfM2EoFQr
+RPdlvdYCW+4riHLTKcf3RGCGn/9Vn8kzmL2VlfFCr12jnYMwc7fsfIYquKgyA1YMqSCbvEkaTPdv
+fbllHCTh2U64dGaRJlnVefmn5tyDzUG72AlsUA==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=272)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+FwWqYH/Seo5bSDBaa/6fnSlw2Lp6cZ4xxt35+IIP89NynhyWrinPdw9rCJHhKroiHSeFXQifcS4v
+c46DL/QyhiBsdzYnNPhUQZGo9OMAIet8lFTKO0ft2WPc/+HQleeI5t3BDVHrPxGthDHfJcMGAVFr
+JRqH9mGpDuhdGv/7p/uX7u1WRHWUzgSYnCWn1t3q529v/ZyJbfcw7AG7dVz8Vf/IblokYHPcoBf2
+b0r1qehnsBe/mnNEf/RV4abqev8ndfsD7fapHuo4rWpffSPjtSvTE5iMtj3X6eN+H7koe29CxzRn
+1TxWriaXz300TjYMIs602s1Cc23KssrOWy9/9OuexOst3eRxo/CHUVYUt5g=
+`pragma protect end_protected

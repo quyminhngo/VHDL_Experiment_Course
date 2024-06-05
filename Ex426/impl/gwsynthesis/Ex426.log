@@ -1,0 +1,45 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\Devider_1Hz.vhd'
+Analyzing entity 'devider_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\Devider_1Hz.vhd":5)
+Analyzing architecture 'rtl_devider_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\Devider_1Hz.vhd":14)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\OSC_100Hz.vhd'
+Analyzing entity 'osc_100hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\OSC_100Hz.vhd":5)
+Analyzing architecture 'rtl_osc_100hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\OSC_100Hz.vhd":13)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_clkdiv5.vhd'
+Analyzing entity 'gowin_clkdiv5'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_clkdiv5.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_clkdiv5.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_clkdiv8.vhd'
+Analyzing entity 'gowin_clkdiv8'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_clkdiv8.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_clkdiv8.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_osc.vhd'
+Analyzing entity 'gowin_osc'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_osc.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\gowin_osc.vhd":19)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounter.vhd'
+Analyzing entity 'bcdcounter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounter.vhd":5)
+Analyzing architecture 'rtl_bcdcounter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounter.vhd":16)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounterSystem.vhd'
+Analyzing entity 'bcdcountersystem'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounterSystem.vhd":5)
+Analyzing architecture 'rtl_bcdcountersystem'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounterSystem.vhd":13)
+Processing 'BCDCounterSystem(RTL_BCDCounterSystem)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounterSystem.vhd":5)
+NOTE  (EX0101) : Current top module is "BCDCounterSystem"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input resetn is unused("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\src\BCDCounterSystem.vhd":7)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\gwsynthesis\Ex426.vg" completed
+[100%] Generate report file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Ex426\impl\gwsynthesis\Ex426_syn.rpt.html" completed
+GowinSynthesis finish

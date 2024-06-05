@@ -1,0 +1,16 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/BCDCounter.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/BCDCounterSystem.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Devider_1Hz.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/OSC_100Hz.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_clkdiv5.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_clkdiv8.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_osc.vhd" type="file.vhdl" enable="1"/>
+    </FileList>
+</Project>

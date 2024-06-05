@@ -1,0 +1,40 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta-4 Education"
+//Sat Jun 01 19:59:39 2024
+
+//Source file index table:
+//file0 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex426/src/Devider_1Hz.vhd"
+//file1 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex426/src/OSC_100Hz.vhd"
+//file2 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex426/src/gowin_clkdiv5.vhd"
+//file3 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex426/src/gowin_clkdiv8.vhd"
+//file4 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex426/src/gowin_osc.vhd"
+//file5 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex426/src/BCDCounter.vhd"
+//file6 "\Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Ex426/src/BCDCounterSystem.vhd"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+Vd1VV8wpIWqZxqZbQnGv+7vHscjrgqjE3C/zWsGKIPyRXXmSeDlq/u7grCZKAfuzDbmIpioHBS/t
+onYYJtB0z3VYp76prc8ZnDTThQhuKRZoqE+a81wk3qr6k0YwzKDKvU6zcqSW6ACCipZh+UnmBv0V
+1eJ6fmma0mNRVYkJJX7BIlI3EZ5rZU7279PAaYmGParH671P8icHIRY4f9V9U8yfWRTcK5YWa1fF
+X58lDz4FLRI5XVC/vOkn4Oun+BxIyui6O1w3CD5a2F9iAAfxV2Quhzx+nCjO3lTMj/hJRsVzKs7I
+jENbi+5bywncrNy4DY02jr5KdXK/ztgKSJw24A==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=240)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+/YdKySQAVoeIO62lB21HiZnuJxVuSJPnoDTaImSzVg9M2LivFv0lwOxa/V7iymecDfF3/jFCTd9b
+qRstxsPCrqGPbnEnWEVfXIFZ1toTZ7Ogj4ZdX6oiq+o79JD5DvyYVmCij/97Rs4pIumcYgcwnM5x
+/pastGam+ojBchs773kWHnqJSgBM/g0mzunSL8BmuA/ka0TrDB4DrWYq8qWpjJhaoo+yCMlz7QRK
+IQBMdOHs4M0eDr02VzOaCApoJw7F47NiUAt4rPWHcN6drt0Nf40YnF3Dh1f1/my3BrG28gTGbVNJ
+acrbWvfMccU2VCqf
+`pragma protect end_protected
