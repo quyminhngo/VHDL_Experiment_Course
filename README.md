@@ -109,6 +109,11 @@ Timing Diagram
 - The demonstration link: https://www.youtube.com/channel/UCi_n5XIAMVjPtJlm0RjNEPw
 
 ### Mod-99 BCD Counter
+- Goals:
+- The system diagram:
+![](img/Mod_99_Counter_Button.png)
+### Mod-99 BCD Counter Up-Down Options
+
 
 
 
