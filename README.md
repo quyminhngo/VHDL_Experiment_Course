@@ -101,6 +101,11 @@ Timing Diagram
 - The system diagram:
 ![](img/Mod_9_Counrter_Button.png)
 - Note that: Because of using enable signal to control the counter, we must use a circuit that narrows the pulse input signal. As the result, the system will run properly when button is pushed and the counter will count up one times.
+- Source code: 
+  - [System](Debouncer/src/CounterSystemButton.vhd)
+  - [Mod-9 Counter](Debouncer/src/components/Mod_9_Counter.vhd)
+  - [Pulse Narrower](Debouncer/src/components/PulseNarrower.vhd)
+  - [Debouncer](Debouncer/src/components/Debouncer.vhd)
 - The demonstration link: https://www.youtube.com/channel/UCi_n5XIAMVjPtJlm0RjNEPw
 
 ### Mod-99 BCD Counter
