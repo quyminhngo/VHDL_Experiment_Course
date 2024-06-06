@@ -96,7 +96,14 @@ Timing Diagram
 - Note that: The application of this circuit will be illustrated in the following sections.
 
 ## USER BUTTON COUNTERS
-### Mod-N Count
+### Mod-9 Counter
+- Goals: This circuit counts the binary numbers from 0000 to 1001 and displays them on a 7-segment display as decimal numbers. The counter is controlled by a user button, but it still uses the system clock as the clock supply source
+- The system diagram:
+![](img/Mod_9_Counrter_Button.png)
+- Note that: Because of using enable signal to control the counter, we must use a circuit that narrows the pulse input signal. As the result, the system will run properly when button is pushed and the counter will count up one times.
+- The demonstration link: https://www.youtube.com/channel/UCi_n5XIAMVjPtJlm0RjNEPw
+
+### Mod-99 BCD Counter
 
 
 

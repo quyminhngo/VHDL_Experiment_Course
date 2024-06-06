@@ -13,7 +13,7 @@ end entity;
 architecture RTL_CounterSystem of CounterSystemButton is
     signal clk:std_logic;
     signal output: std_logic_vector(3 downto 0);
-    signal input: std_logic;
+    signal input,input_narow: std_logic;
 
 begin
     
@@ -24,20 +24,31 @@ begin
     );
     mod_9_counter_inst: entity work.Mod_9_Counter
     port map (
-      clk    => input,
+      clk    => clk,
       output => output,
-      resetn => resetn
+      resetn => resetn,
+      enable => input_narow
     );
+    
     led_decoder_4_bit_inst: entity work.LED_Decoder_4_Bit
     port map (
       inp  => output,
       outp => led
     );
+    
     buttondetect_inst: entity work.Debouncer
     port map (
       clk    => clk,
       resetn => resetn,
       input  => button,
       output => input
+    );
+
+    pulsenarrower_inst: entity work.PulseNarrower
+    port map (
+      clk           => clk,
+      resetn        => resetn,
+      input_pulse   => input,
+      output_narrow => input_narow
     );
 end architecture;

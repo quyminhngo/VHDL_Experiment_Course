@@ -6,7 +6,8 @@ entity Mod_9_Counter is
   port (
     clk: in std_logic;
     output: out std_logic_vector(3 downto 0);
-    resetn: in std_logic
+    resetn: in std_logic;
+    enable: in std_logic
   );
 end entity;
 
@@ -24,5 +25,7 @@ begin
 
     output <= std_logic_vector(state_reg);
 
-state_next <= state_reg + 1 when state_reg < 9 else (others => '0') ;
+  state_next <= state_reg + 1 when state_reg < 9  and enable = '1' else 
+                state_reg     when enable = '0'                    else
+                (others => '0') ;
 end architecture;
