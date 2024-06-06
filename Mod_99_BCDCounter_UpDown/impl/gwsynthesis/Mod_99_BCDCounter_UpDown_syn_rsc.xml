@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="BCDCounterSystem">
+ <SubModule name="osc_100hz_inst">
+  <SubModule name="osc_source"/>
+  <SubModule name="oscdiv5_1"/>
+  <SubModule name="oscdiv5_2"/>
+  <SubModule name="oscdiv5_3"/>
+  <SubModule name="oscdiv5_4"/>
+  <SubModule name="oscdiv5_5"/>
+  <SubModule name="oscdiv8"/>
+ </SubModule>
+ <SubModule name="debouncer_inst_up" Register="4" Lut="6"/>
+ <SubModule name="debouncer_inst_down" Register="4" Lut="5"/>
+ <SubModule name="pulsenarrower_inst_up" Register="1"/>
+ <SubModule name="pulsenarrower_inst_down" Register="1"/>
+ <SubModule name="mod_99_bcd_counter_inst" Register="8" Lut="24"/>
+ <SubModule name="led_decoder_4_bit_inst" Lut="7"/>
+ <SubModule name="led_decoder_4_bit_inst_2" Lut="7"/>
+</Module>

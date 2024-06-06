@@ -1,0 +1,29 @@
+Reading netlist file: "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\impl\gwsynthesis\Mod_99_BCDCounter_UpDown.vg"
+Parsing netlist file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\impl\gwsynthesis\Mod_99_BCDCounter_UpDown.vg" completed
+Processing netlist completed
+Reading constraint file: "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\src\Mod_99_BCDCounter.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\impl\pnr\Mod_99_BCDCounter_UpDown.power.html" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\impl\pnr\Mod_99_BCDCounter_UpDown.pin.html" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\impl\pnr\Mod_99_BCDCounter_UpDown.rpt.html" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\impl\pnr\Mod_99_BCDCounter_UpDown.rpt.txt" completed
+Generate file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDown\impl\pnr\Mod_99_BCDCounter_UpDown.tr.html" completed
+Thu Jun 06 18:54:28 2024
+
