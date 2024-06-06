@@ -6,7 +6,6 @@ entity Counter_3_Bit is
   port (
     clk: in std_logic;
     enable: in std_logic;
-    pause : in std_logic;
     resetn: in std_logic;
     outp: out std_logic_vector(2 downto 0)
   );
@@ -32,7 +31,6 @@ begin
 
     REGISTER_PROC : process(clk,resetn)
     begin
-		
         if resetn = '0' then
             currState <= (others => '0');  
         elsif clk'event and clk = '1'  then

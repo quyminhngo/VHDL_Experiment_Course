@@ -2,16 +2,16 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity Devider_1Hz is
+entity Enable_1Hz is
   port
   (
     clk    : in std_logic;
     clkout : out std_logic;
     resetn : in std_logic
   );
-end entity Devider_1Hz;
+end entity Enable_1Hz;
 
-architecture RTL_Devider_1Hz of Devider_1Hz is
+architecture RTL_Devider_1Hz of Enable_1Hz is
   constant mod_N : integer := 100;
 
   component OSC_100Hz is
@@ -40,6 +40,6 @@ begin
     (others => '0');
 
   -- Output logic State
-  clkout <= '0' when curr_state = mod_N/2 else
-    '1';
+  clkout <= '1' when curr_state = mod_N/2 else
+    '0';
 end architecture;

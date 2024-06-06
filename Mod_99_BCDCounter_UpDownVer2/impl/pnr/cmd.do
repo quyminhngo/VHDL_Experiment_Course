@@ -1,0 +1,13 @@
+-d Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDownVer2\impl\gwsynthesis\Mod_99_BCDCounter_UpDownVer2.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDownVer2\src\Mod_99_BCDCounter.cst
+-cfg Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDownVer2\impl\pnr\device.cfg
+-sdc Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Mod_99_BCDCounter_UpDownVer2\src\Mod_99_BCDCounter_UpDownVer2.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

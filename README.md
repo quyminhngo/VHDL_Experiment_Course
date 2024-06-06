@@ -113,6 +113,7 @@ Timing Diagram
 - The system diagram:
 ![](img/Mod_99_Counter_Button.png)
 ### Mod-99 BCD Counter Up-Down Options
+### Mod-99 BCD Counter Up-Down Options Version 2 
 
 
 

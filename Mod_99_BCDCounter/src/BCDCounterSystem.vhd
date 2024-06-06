@@ -39,7 +39,7 @@ begin
       output_narrow => input_narrow
     );
 
-    mod_99_bcd_counter_inst: entity work.Mod_99_BCD_Counter
+    mod_99_bcd_counter_: entity work.Mod_99_BCD_Counter
     port map (
       clk    => clk,
       resetn => resetn,
