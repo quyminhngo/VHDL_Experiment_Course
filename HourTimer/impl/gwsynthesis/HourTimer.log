@@ -1,0 +1,70 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\OSC_100Hz.vhd'
+Analyzing entity 'osc_100hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\OSC_100Hz.vhd":5)
+Analyzing architecture 'rtl_osc_100hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\OSC_100Hz.vhd":13)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Enable_1Hz.vhd'
+Analyzing entity 'enable_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Enable_1Hz.vhd":5)
+Analyzing architecture 'rtl_devider_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Enable_1Hz.vhd":14)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\HourTimer.vhd'
+Analyzing entity 'hourtimer'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\HourTimer.vhd":5)
+Analyzing architecture 'rtl_hourtimer'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\HourTimer.vhd":22)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\BinBCDConverter.vhd'
+Analyzing entity 'binbcdconverter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\BinBCDConverter.vhd":5)
+Analyzing architecture 'rtl_binbcdconverter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\BinBCDConverter.vhd":16)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\PulseNarrower.vhd'
+Analyzing entity 'pulsenarrower'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\PulseNarrower.vhd":5)
+Analyzing architecture 'rtl_pulsenarrower'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\PulseNarrower.vhd":15)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\LED_Decoder_4_bit.vhd'
+Analyzing entity 'led_decoder_4_bit'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\LED_Decoder_4_bit.vhd":28)
+Analyzing architecture 'led_decoder_arch'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\LED_Decoder_4_bit.vhd":38)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\HourTimerSystem.vhd'
+Analyzing entity 'hourtimersystem'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\HourTimerSystem.vhd":5)
+Analyzing architecture 'rtl_hourtimersystem'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\HourTimerSystem.vhd":20)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Debouncer.vhd'
+Analyzing entity 'debouncer'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Debouncer.vhd":5)
+Analyzing architecture 'rtl_buttondetect'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Debouncer.vhd":14)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Mod_9_Counter.vhd'
+Analyzing entity 'mod_9_counter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Mod_9_Counter.vhd":5)
+Analyzing architecture 'rtl_mod_9_counter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Mod_9_Counter.vhd":14)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv5.vhd'
+Analyzing entity 'gowin_clkdiv5'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv5.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv5.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv8.vhd'
+Analyzing entity 'gowin_clkdiv8'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv8.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv8.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_osc.vhd'
+Analyzing entity 'gowin_osc'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_osc.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_osc.vhd":19)
+Processing 'HourTimerSystem(RTL_HourTimerSystem)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\HourTimerSystem.vhd":5)
+Processing 'OSC_100Hz(RTL_OSC_100Hz)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\OSC_100Hz.vhd":5)
+Processing 'Gowin_OSC(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_osc.vhd":13)
+Processing 'Gowin_CLKDIV5(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv5.vhd":13)
+Processing 'Gowin_CLKDIV8(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv8.vhd":13)
+Processing 'Enable_1Hz(RTL_Devider_1Hz)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\Enable_1Hz.vhd":5)
+Processing 'HourTimer(RTL_HourTimer)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\HourTimer.vhd":5)
+Processing 'BinBCDConverter(RTL_BinBCDConverter)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\BinBCDConverter.vhd":5)
+Processing 'PulseNarrower(RTL_PulseNarrower)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\PulseNarrower.vhd":5)
+Processing 'LED_Decoder_4_Bit(LED_Decoder_Arch)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\LED_Decoder_4_bit.vhd":28)
+NOTE  (EX0101) : Current top module is "HourTimerSystem"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "BinBCDConverter" instantiated to "binbcdconverter_inst_min" is swept in optimizing("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\HourTimerSystem.vhd":85)
+WARN  (NL0002) : The module "BinBCDConverter" instantiated to "binbcdconverter_inst_second" is swept in optimizing("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\HourTimerSystem.vhd":95)
+[95%] Generate netlist file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\impl\gwsynthesis\HourTimer.vg" completed
+[100%] Generate report file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\impl\gwsynthesis\HourTimer_syn.rpt.html" completed
+GowinSynthesis finish

@@ -7,8 +7,9 @@ entity BCDCounterSystem is
     button_up: in std_logic;
     button_down: in std_logic;
     resetn: in std_logic;
-    tens_led: out std_logic_vector(6 downto 0);
-    units_led: out std_logic_vector(6 downto 0)
+    led: out std_logic_vector(6 downto 0);
+    led_number: out std_logic_vector(3 downto 0)
+    
   );
 end entity;
 
@@ -17,6 +18,7 @@ architecture RTL_BCDCounterSystem of BCDCounterSystem is
     signal clk_up_enable, clk_down_enable: std_logic;
     signal debounced_up, debounced_down: std_logic; 
     signal debounced_up_temp, debounced_down_temp: std_logic; 
+    signal select_output: std_logic_vector(3 downto 0);
    
 
 	signal clk: std_logic;
@@ -72,17 +74,29 @@ debounced_down <= '0' when debounced_down_temp = '1' and debounced_up_temp = '1'
       tens   => tens,
       unit   => unit
     );
+    
 
     led_decoder_4_bit_inst: entity work.LED_Decoder_4_Bit
     port map (
-      inp  => tens,
-      outp => tens_led
+      inp  => select_output,
+      outp => led
     );
-    led_decoder_4_bit_inst_2: entity work.LED_Decoder_4_Bit
-    port map (
-      inp  => unit,
-      outp => units_led
-    );
+
+
+
+  SEVENSEGMENTDISPLAY_PROC : process(clk,tens,unit)
+  begin
+    if clk = '1' then
+      select_output <= tens;
+      led_number <= "1101";
+    else 
+      select_output <= unit;
+      led_number <= "1110";
+    end if;
+  end process;
+
+
+
 
 
 end architecture;

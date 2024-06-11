@@ -12,7 +12,7 @@ entity Enable_1Hz is
 end entity Enable_1Hz;
 
 architecture RTL_Devider_1Hz of Enable_1Hz is
-  constant mod_N : integer := 50;
+  constant mod_N : integer := 100;
 
   component OSC_100Hz is
     port
