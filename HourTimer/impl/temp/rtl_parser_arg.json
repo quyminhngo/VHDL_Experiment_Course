@@ -60,6 +60,11 @@
    "Library" : "work",
    "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/HourTimer/src/sys/gowin_osc.vhd",
    "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/HourTimer/src/components/ControlSevenSegmentLed.vhd",
+   "Type" : "vhdl"
   }
  ],
  "IncludePath" : [

@@ -7,6 +7,7 @@
     <FileList>
         <File path="src/HourTimerSystem.vhd" type="file.vhdl" enable="1"/>
         <File path="src/components/BinBCDConverter.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/components/ControlSevenSegmentLed.vhd" type="file.vhdl" enable="1"/>
         <File path="src/components/Debouncer.vhd" type="file.vhdl" enable="1"/>
         <File path="src/components/Enable_1Hz.vhd" type="file.vhdl" enable="1"/>
         <File path="src/components/HourTimer.vhd" type="file.vhdl" enable="1"/>

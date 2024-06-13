@@ -6,12 +6,12 @@
   <SubModule name="oscdiv5_2"/>
   <SubModule name="oscdiv5_3"/>
   <SubModule name="oscdiv5_4"/>
-  <SubModule name="oscdiv5_5"/>
   <SubModule name="oscdiv8"/>
  </SubModule>
  <SubModule name="debouncer_inst" Register="4" Lut="6"/>
  <SubModule name="pulsenarrower_inst" Register="1"/>
- <SubModule name="mod_99_bcd_counter_inst" Register="8" Lut="16"/>
- <SubModule name="led_decoder_4_bit_inst" Lut="7"/>
- <SubModule name="led_decoder_4_bit_inst_2" Lut="7"/>
+ <SubModule name="mod_99_bcd_counter" Register="8" Lut="16"/>
+ <SubModule name="controlsevensegmentled_inst" Register="3" Lut="11">
+  <SubModule name="led_decoder_inst" Lut="17"/>
+ </SubModule>
 </Module>

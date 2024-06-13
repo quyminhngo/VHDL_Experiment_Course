@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ControlSevenSegmentLed" Register="3" Lut="11">
+ <SubModule name="led_decoder_inst" Lut="47"/>
+</Module>

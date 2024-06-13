@@ -25,16 +25,16 @@
 LIBRARY IEEE;
 USE IEEE.std_logic_1164.all;
 
-ENTITY LED_Decoder_4_Bit IS
+ENTITY led_decoder IS
 	 PORT(
 		 inp : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 		 outp : OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
 	     );
-END LED_Decoder_4_Bit;
+END led_decoder;
 
 --}} End of automatically maintained section
 
-ARCHITECTURE LED_Decoder_Arch OF LED_Decoder_4_Bit IS
+ARCHITECTURE LED_Decoder_Arch OF led_decoder IS
 BEGIN
 
 	-- enter your statements here --

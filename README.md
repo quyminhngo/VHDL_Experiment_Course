@@ -114,6 +114,17 @@ Timing Diagram
 ![](img/Mod_99_Counter_Button.png)
 ### Mod-99 BCD Counter Up-Down Options
 ### Mod-99 BCD Counter Up-Down Options Version 2 
+### Timer with set-up option (Use Multi-seven-segment Led by ControllerSevenSegment module)
+### Updating...
+
+# Chapter 11: Register-Transfer Methodology: Principle
+- The most method to construct a large system is FSMD based on the RT-Methodology. It includes Data-Path (Regular Sequential Circuit) and Control-Path (Finite State Machine).
+- This method is used to implement the specific algorithms in custom hardware instead of general purposes computer. this describes the sequence of operation by data transfer among and manipulation register.
+### System 1 - Repetitive-Added Multiplier
+- System 
+- Data-Path 
+
+# Chapter 12: Register-Transfer Methodology: Practice
 
 
 

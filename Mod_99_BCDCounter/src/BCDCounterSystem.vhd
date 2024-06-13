@@ -4,26 +4,26 @@ library ieee;
 
 entity BCDCounterSystem is
   port (
-    button: in std_logic;
-    resetn: in std_logic;
-    tens_led: out std_logic_vector(6 downto 0);
-    units_led: out std_logic_vector(6 downto 0)
+    button     : in  std_logic;
+    resetn     : in  std_logic;
+    led        : out std_logic_vector(7 downto 0);
+    led_number : out std_logic_vector(7 downto 0)
   );
 end entity;
 
 architecture RTL_BCDCounterSystem of BCDCounterSystem is
-    signal tens,unit: std_logic_vector(3 downto 0);
-    signal input_pulse, input_narrow: std_logic;
-	signal clk: std_logic;
+  signal tens, unit                : std_logic_vector(3 downto 0);
+  signal input_pulse, input_narrow : std_logic;
+  signal clk                       : std_logic;
 begin
 
-    osc_100hz_inst: entity work.OSC_100Hz
+  osc_100hz_inst: entity work.OSC_100Hz
     port map (
       clkout => clk,
       resetn => resetn
     );
 
-    debouncer_inst: entity work.Debouncer
+  debouncer_inst: entity work.Debouncer
     port map (
       clk    => clk,
       resetn => resetn,
@@ -31,7 +31,7 @@ begin
       output => input_pulse
     );
 
-    pulsenarrower_inst: entity work.PulseNarrower
+  pulsenarrower_inst: entity work.PulseNarrower
     port map (
       clk           => clk,
       resetn        => resetn,
@@ -39,7 +39,7 @@ begin
       output_narrow => input_narrow
     );
 
-    mod_99_bcd_counter_: entity work.Mod_99_BCD_Counter
+  mod_99_bcd_counter: entity work.Mod_99_BCD_Counter
     port map (
       clk    => clk,
       resetn => resetn,
@@ -48,16 +48,23 @@ begin
       unit   => unit
     );
 
-    led_decoder_4_bit_inst: entity work.LED_Decoder_4_Bit
+  controlsevensegmentled_inst: entity work.ControlSevenSegmentLed
     port map (
-      inp  => tens,
-      outp => tens_led
-    );
-    led_decoder_4_bit_inst_2: entity work.LED_Decoder_4_Bit
-    port map (
-      inp  => unit,
-      outp => units_led
-    );
+      clk         => clk,
+      sseg_in_0   => unit,
+      sseg_in_1   => (others => '0'),
+      sseg_in_2   => (others => '0'),
+      sseg_in_3   => tens,
+      sseg_in_4   => (others => '0'),
+      sseg_in_5   => (others => '0'),
+      sseg_in_6   => (others => '0'),
+      sseg_in_7   => (others => '0'),
 
+      sseg_enable => "00001001",
+      sseg_dot    => "00000110",
+      clk_enable  => '1',
+      sseg_number => led_number,
+      sseg_out    => led
+    );
 
 end architecture;

@@ -16,6 +16,7 @@
         <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv5.vhd" type="vhdl"/>
         <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_clkdiv8.vhd" type="vhdl"/>
         <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\sys\gowin_osc.vhd" type="vhdl"/>
+        <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\HourTimer\src\components\ControlSevenSegmentLed.vhd" type="vhdl"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

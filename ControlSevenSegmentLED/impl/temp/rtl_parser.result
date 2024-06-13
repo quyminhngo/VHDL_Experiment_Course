@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/ControlSevenSegmentLED/src/ControlSevenSegmentLed.vhd",
+  "InstLine" : 47,
+  "InstName" : "ControlSevenSegmentLed",
+  "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/ControlSevenSegmentLED/src/ControlSevenSegmentLed.vhd",
+  "ModuleLine" : 47,
+  "ModuleName" : "ControlSevenSegmentLed",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/ControlSevenSegmentLED/src/ControlSevenSegmentLed.vhd",
+    "InstLine" : 77,
+    "InstName" : "led_decoder_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/ControlSevenSegmentLED/src/ControlSevenSegmentLed.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "led_decoder"
+   }
+  ]
+ }
+]

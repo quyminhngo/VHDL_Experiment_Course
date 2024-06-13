@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="HourTimerSystem" Register="4" Lut="11">
+<Module name="HourTimerSystem" Register="2" Lut="3">
  <SubModule name="osc_100hz_inst">
   <SubModule name="osc_source"/>
   <SubModule name="oscdiv5_1"/>
@@ -8,10 +8,12 @@
   <SubModule name="oscdiv5_4"/>
   <SubModule name="oscdiv8"/>
  </SubModule>
- <SubModule name="enable_1hz_inst" Register="9" Lut="15"/>
- <SubModule name="hourtimer_inst" Register="12" Lut="80"/>
+ <SubModule name="enable_1hz_inst" Register="9" Lut="13"/>
+ <SubModule name="hourtimer_inst" Register="12" Lut="74"/>
  <SubModule name="pulsenarrower_inst_sel" Register="1"/>
  <SubModule name="pulsenarrower_inst_up" Register="1"/>
  <SubModule name="pulsenarrower_inst_down" Register="1"/>
- <SubModule name="led_decoder_4_bit_inst" Lut="35"/>
+ <SubModule name="controlsevensegmentled_inst" Register="3" Lut="11">
+  <SubModule name="led_decoder_inst" Lut="37"/>
+ </SubModule>
 </Module>

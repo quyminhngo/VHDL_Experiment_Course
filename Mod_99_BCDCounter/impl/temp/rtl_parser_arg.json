@@ -8,22 +8,7 @@
   },
   {
    "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/gowin_clkdiv5.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/gowin_clkdiv8.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/gowin_osc.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/OSC_100Hz.vhd",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/components/ControlSevenSegmentLed.vhd",
    "Type" : "vhdl"
   },
   {
@@ -38,17 +23,37 @@
   },
   {
    "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/components/Mod_9_Counter.vhd",
-   "Type" : "vhdl"
-  },
-  {
-   "Library" : "work",
    "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/components/Mod_99_BCD_Counter.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/components/Mod_9_Counter.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
    "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/components/PulseNarrower.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/OSC_100Hz.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/gowin_clkdiv5.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/gowin_clkdiv8.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Mod_99_BCDCounter/src/sys/gowin_osc.vhd",
    "Type" : "vhdl"
   }
  ],

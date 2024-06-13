@@ -6,6 +6,7 @@
     <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
     <FileList>
         <File path="src/BCDCounterSystem.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/components/ControlSevenSegmentLed.vhd" type="file.vhdl" enable="1"/>
         <File path="src/components/Debouncer.vhd" type="file.vhdl" enable="1"/>
         <File path="src/components/LED_Decoder_4_bit.vhd" type="file.vhdl" enable="1"/>
         <File path="src/components/Mod_99_BCD_Counter.vhd" type="file.vhdl" enable="1"/>
