@@ -123,6 +123,48 @@ Timing Diagram
 ### System 1 - Repetitive-Added Multiplier
 - System 
 - Data-Path 
+### System 2 - Multiplier using Adder-Shifter Algorithms
+### System 3 - Fibonacy Number System
+- Spec: 
+- System Diagram:
+- Algorithms: we use the dynamic programming technique to implement this problem.
+- Pseudo-code: 
+
+
+```cpp
+const n = 5;
+  fib = 0;
+  fn_1 = 1;           // f[1] = 1;
+  fn_2 = 0;       // f[0] = 0;
+  i = 6;
+op: 
+    fib = fn_1 + fn_2;
+    fn_1 = fib;
+    fn_2 = fn_1;
+    i = i - 1;
+    if (i != 1) 
+    {
+      goto op;
+    }
+```
+- Algorithms complexity: O(n)
+- Implement in hardware based on RT Methodology
+  - Requirement Register:
+      - i_reg : to store iterator (3 bits)
+      - fib_reg : to store result (43 bits)
+      - fib_n : to store f(n-1) (6 bits)
+      - fib_n_1 : to store f(n-2) (6 bits)
+  - ASMD Chart: Each every step, we need ... clock cycle.
+- Performance Analysis:
+- Demonstration link:
+- Source code:
+
+  
+
+  
+
+
+  
 
 # Chapter 12: Register-Transfer Methodology: Practice
 
