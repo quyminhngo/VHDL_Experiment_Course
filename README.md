@@ -150,14 +150,18 @@ op:
 - Algorithms complexity: O(n)
 - Implement in hardware based on RT Methodology
   - Requirement Register:
-      - i_reg : to store iterator (3 bits)
-      - fib_reg : to store result (43 bits)
-      - fib_n : to store f(n-1) (6 bits)
-      - fib_n_1 : to store f(n-2) (6 bits)
-  - ASMD Chart: Each every step, we need ... clock cycle.
+      - i_reg : to store iterator (5 bits)
+      - fib_reg : to store result (21 bits)
+      - fib_n : to store f(n-1) (21 bits)
+      - fib_n_1 : to store f(n-2) (21 bits)
+  - ASMD Chart: Each every loop-step, we need 2 clock cycle.
+  ![AFSMChart](/img/fiboAFSMD.jpeg)
 - Performance Analysis:
+  - Timing Complexity: O(n)
+  - Clock cycle per loop-step (CCPS): 2 clock cycles
+  - ComputationTime = NumberOfStep(n) * CCPS (2) = n*2 cycles 
 - Demonstration link:
-- Source code:
+- Source code: [fibonacycalculator](/FSMD_Fibonacy/src/fibonacy.vhd)
 
   
 
