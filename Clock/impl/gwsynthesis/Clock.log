@@ -1,0 +1,76 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock.vhd'
+Analyzing entity 'clock'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock.vhd":5)
+Analyzing architecture 'rtl_clock'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\Enable_1Hz.vhd'
+Analyzing entity 'enable_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\Enable_1Hz.vhd":5)
+Analyzing architecture 'rtl_devider_1hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\Enable_1Hz.vhd":13)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\OSC_500Hz.vhd'
+Analyzing entity 'osc_500hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\OSC_500Hz.vhd":5)
+Analyzing architecture 'rtl_osc_500hz'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\OSC_500Hz.vhd":12)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv5.vhd'
+Analyzing entity 'gowin_clkdiv5'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv5.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv5.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv8.vhd'
+Analyzing entity 'gowin_clkdiv8'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv8.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv8.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_osc.vhd'
+Analyzing entity 'gowin_osc'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_osc.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_osc.vhd":19)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\Debouncer.vhd'
+Analyzing entity 'debouncer'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\Debouncer.vhd":5)
+Analyzing architecture 'rtl_buttondetect'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\Debouncer.vhd":14)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\PulseNarrower.vhd'
+Analyzing entity 'pulsenarrower'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\PulseNarrower.vhd":5)
+Analyzing architecture 'rtl_pulsenarrower'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\PulseNarrower.vhd":15)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\BinBCDConverter.vhd'
+Analyzing entity 'binbcdconverter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\BinBCDConverter.vhd":5)
+Analyzing architecture 'rtl_binbcdconverter'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\BinBCDConverter.vhd":16)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\ControlSevenSegmentLed.vhd'
+Analyzing entity 'led_decoder'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\ControlSevenSegmentLed.vhd":5)
+Analyzing architecture 'led_decoder_arch'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\ControlSevenSegmentLed.vhd":14)
+Analyzing entity 'controlsevensegmentled'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\ControlSevenSegmentLed.vhd":48)
+Analyzing architecture 'rtl'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\ControlSevenSegmentLed.vhd":70)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd'
+Analyzing entity 'clock_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":5)
+Analyzing architecture 'rtl_clock_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":17)
+WARN  (EX4557) : Actual for formal port 'up' is neither a static name nor a globally static expression("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":75)
+WARN  (EX4557) : Actual for formal port 'down' is neither a static name nor a globally static expression("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":76)
+Processing 'clock_system(rtl_clock_system)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":5)
+Processing 'OSC_500Hz(RTL_OSC_500Hz)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\OSC_500Hz.vhd":5)
+Processing 'Gowin_OSC(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_osc.vhd":13)
+Processing 'Gowin_CLKDIV5(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv5.vhd":13)
+Processing 'Gowin_CLKDIV8(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\gowin_clkdiv8.vhd":13)
+Processing 'Enable_1Hz(RTL_Devider_1Hz)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_source\Enable_1Hz.vhd":5)
+Processing 'Debouncer(RTL_ButtonDetect)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\Debouncer.vhd":5)
+'others' clause is never selected("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\Debouncer.vhd":92)
+Processing 'PulseNarrower(RTL_PulseNarrower)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\PulseNarrower.vhd":5)
+Processing 'clock(rtl_clock)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock.vhd":5)
+Processing 'BinBCDConverter(RTL_BinBCDConverter)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\BinBCDConverter.vhd":5)
+Processing 'ControlSevenSegmentLed(rtl)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\ControlSevenSegmentLed.vhd":48)
+Processing 'led_decoder(led_decoder_arch)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\components\ControlSevenSegmentLed.vhd":5)
+NOTE  (EX0101) : Current top module is "clock_system"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "BinBCDConverter" instantiated to "binbcdconverter_inst_hour" is swept in optimizing("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":79)
+WARN  (NL0002) : The module "BinBCDConverter" instantiated to "binbcdconverter_inst_min" is swept in optimizing("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":89)
+WARN  (NL0002) : The module "BinBCDConverter" instantiated to "binbcdconverter_inst_sec" is swept in optimizing("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":99)
+WARN  (NL0002) : The module "Enable_1Hz" instantiated to "enable_1hz_inst" is swept in optimizing("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\src\clock_system.vhd":31)
+[95%] Generate netlist file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\impl\gwsynthesis\Clock.vg" completed
+[100%] Generate report file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\Clock\impl\gwsynthesis\Clock_syn.rpt.html" completed
+GowinSynthesis finish

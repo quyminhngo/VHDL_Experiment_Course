@@ -11,16 +11,16 @@ entity Enable_1Hz is
 end entity;
 
 architecture RTL_Devider_1Hz of Enable_1Hz is
-  constant mod_N : integer := 500;
+  constant mod_N : integer := 2;
 
-  component OSC_100Hz is
+  component OSC_500Hz is
     port (
       clkout : out std_logic;
       resetn : in  std_logic
     );
   end component;
 
-  signal next_state, curr_state : unsigned(8 downto 0) := (others => '0');
+  signal next_state, curr_state : signed(8 downto 0) := (others => '0');
 
 begin
   --REGISTER
@@ -37,6 +37,6 @@ begin
                   (others => '0');
 
   -- Output logic State
-  clkout <= '1' when curr_state = mod_N - 1 else
+  clkout <= '1' when curr_state = 0 else
             '0';
 end architecture;

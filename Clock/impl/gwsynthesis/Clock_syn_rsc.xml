@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="clock_system" Register="3" Lut="7">
+ <SubModule name="osc_500hz_inst">
+  <SubModule name="osc_source"/>
+  <SubModule name="oscdiv5_1"/>
+  <SubModule name="oscdiv5_2"/>
+  <SubModule name="oscdiv5_3"/>
+  <SubModule name="oscdiv5_4"/>
+  <SubModule name="oscdiv8"/>
+ </SubModule>
+ <SubModule name="debouncer_inst" Register="4" Lut="5"/>
+ <SubModule name="pulsenarrower_inst_mode" Register="1"/>
+ <SubModule name="pulsenarrower_inst_up" Register="1"/>
+ <SubModule name="pulsenarrower_inst_down" Register="1"/>
+ <SubModule name="clock_inst" Register="19" Lut="151"/>
+ <SubModule name="controlsevensegmentled_inst" Register="3" Lut="11">
+  <SubModule name="led_decoder_inst" Lut="55"/>
+ </SubModule>
+</Module>

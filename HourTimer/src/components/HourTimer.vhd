@@ -78,6 +78,7 @@ begin
           minu := minute_reg - 10;
         end if;
       end if;
+
       if seco <= 59 then
         second_next <= seco;
       else

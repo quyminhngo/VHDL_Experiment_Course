@@ -1,0 +1,160 @@
+[
+ {
+  "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+  "InstLine" : 5,
+  "InstName" : "clock_system",
+  "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "clock_system",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 26,
+    "InstName" : "osc_500hz_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/OSC_500Hz.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "OSC_500Hz",
+    "SubInsts" : [
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/OSC_500Hz.vhd",
+      "InstLine" : 40,
+      "InstName" : "osc_source",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/gowin_osc.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_OSC"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/OSC_500Hz.vhd",
+      "InstLine" : 44,
+      "InstName" : "oscdiv5_1",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/OSC_500Hz.vhd",
+      "InstLine" : 51,
+      "InstName" : "oscdiv5_2",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/OSC_500Hz.vhd",
+      "InstLine" : 58,
+      "InstName" : "oscdiv5_3",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/OSC_500Hz.vhd",
+      "InstLine" : 65,
+      "InstName" : "oscdiv5_4",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/gowin_clkdiv5.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV5"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/OSC_500Hz.vhd",
+      "InstLine" : 72,
+      "InstName" : "oscdiv8",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/gowin_clkdiv8.vhd",
+      "ModuleLine" : 13,
+      "ModuleName" : "Gowin_CLKDIV8"
+     }
+    ]
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 31,
+    "InstName" : "enable_1hz_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_source/Enable_1Hz.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Enable_1Hz"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 37,
+    "InstName" : "debouncer_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/Debouncer.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Debouncer"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 44,
+    "InstName" : "pulsenarrower_inst_mode",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/PulseNarrower.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "PulseNarrower"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 51,
+    "InstName" : "pulsenarrower_inst_up",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/PulseNarrower.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "PulseNarrower"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 58,
+    "InstName" : "pulsenarrower_inst_down",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/PulseNarrower.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "PulseNarrower"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 66,
+    "InstName" : "clock_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "clock"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 79,
+    "InstName" : "binbcdconverter_inst_hour",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/BinBCDConverter.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "BinBCDConverter"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 89,
+    "InstName" : "binbcdconverter_inst_min",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/BinBCDConverter.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "BinBCDConverter"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 99,
+    "InstName" : "binbcdconverter_inst_sec",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/BinBCDConverter.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "BinBCDConverter"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/clock_system.vhd",
+    "InstLine" : 109,
+    "InstName" : "controlsevensegmentled_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/ControlSevenSegmentLed.vhd",
+    "ModuleLine" : 48,
+    "ModuleName" : "ControlSevenSegmentLed",
+    "SubInsts" : [
+     {
+      "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/ControlSevenSegmentLed.vhd",
+      "InstLine" : 77,
+      "InstName" : "led_decoder_inst",
+      "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/Clock/src/components/ControlSevenSegmentLed.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "led_decoder"
+     }
+    ]
+   }
+  ]
+ }
+]

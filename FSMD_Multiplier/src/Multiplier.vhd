@@ -76,7 +76,7 @@ begin
            '0';
   -- Datapath Routing network
 
-  PROC: process (state_reg,a_reg,n_reg,r_reg,a,b,adder_out,sub_out)
+  PROC: process (state_reg, a_reg, n_reg, r_reg, a, b, adder_out, sub_out)
   begin
     case (state_reg) is
 
