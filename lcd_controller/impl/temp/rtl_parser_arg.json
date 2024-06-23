@@ -23,7 +23,7 @@
   },
   {
    "Library" : "work",
-   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/user_logic.vhd",
+   "Path" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/user_logic_system.vhd",
    "Type" : "vhdl"
   }
  ],

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="lcd_system">
  <SubModule name="gowin_osc_inst"/>
- <SubModule name="lcd_controller" Register="51" Lut="141"/>
- <SubModule name="main_system_inst" Register="22" Alu="5" Lut="25"/>
+ <SubModule name="lcd_controller" Register="51" Lut="172"/>
+ <SubModule name="main_system_inst" Register="6" Lut="11"/>
 </Module>

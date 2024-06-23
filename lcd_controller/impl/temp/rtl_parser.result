@@ -35,9 +35,9 @@
     "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_system.vhd",
     "InstLine" : 49,
     "InstName" : "main_system_inst",
-    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/user_logic.vhd",
-    "ModuleLine" : 6,
-    "ModuleName" : "user_logic"
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/user_logic_system.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "user_logic_system"
    }
   ]
  }

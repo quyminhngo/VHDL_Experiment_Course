@@ -9,9 +9,9 @@ Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design
 Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd'
 Analyzing entity 'lcd_controller'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":5)
 Analyzing architecture 'rtl_lcd_controller'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":27)
-Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd'
-Analyzing entity 'user_logic'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd":6)
-Analyzing architecture 'rtl'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic_system.vhd'
+Analyzing entity 'user_logic_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic_system.vhd":5)
+Analyzing architecture 'rtl_logic_user_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic_system.vhd":19)
 Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd'
 Analyzing entity 'lcd_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd":5)
 Analyzing architecture 'rtl_lcd_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd":15)
@@ -19,8 +19,8 @@ Processing 'lcd_system(rtl_lcd_system)'("Q:\Digital_IC_Design\VDHL_Experiment_De
 Processing 'Gowin_OSC(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\gowin_osc.vhd":13)
 Processing 'LCD_GAN_DULIEU_HIENTHI(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\LCD_GAN_DULIEU_HIENTHI.vhd":7)
 Processing 'lcd_controller(RTL_LCD_controller)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":5)
-'others' clause is never selected("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":157)
-Processing 'user_logic(rtl)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd":6)
+'others' clause is never selected("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":158)
+Processing 'user_logic_system(RTL_logic_user_system)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic_system.vhd":5)
 NOTE  (EX0101) : Current top module is "lcd_system"
 [5%] Running netlist conversion ...
 Running device independent optimization ...

@@ -9,7 +9,8 @@
         <File path="src/gowin_osc.vhd" type="file.vhdl" enable="1"/>
         <File path="src/lcd_controller.vhd" type="file.vhdl" enable="1"/>
         <File path="src/lcd_system.vhd" type="file.vhdl" enable="1"/>
-        <File path="src/user_logic.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/user_logic.vhd" type="file.vhdl" enable="0"/>
+        <File path="src/user_logic_system.vhd" type="file.vhdl" enable="1"/>
         <File path="src/lcd_controller.cst" type="file.cst" enable="1"/>
     </FileList>
 </Project>

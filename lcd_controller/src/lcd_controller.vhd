@@ -30,7 +30,7 @@ architecture RTL_LCD_controller of lcd_controller is
   constant LCD_INSTRUCTION_SET_CONST : LCD_INSTRUCTION_SET := (
     0 => "0000000000",
     1 => "0000111100", --FUNCTION SET 
-    2 => "0000001100", -- X"0C" --CONTROL DISPLAY 
+    2 => "0000001111", -- X"0C" --CONTROL DISPLAY 
     3 => "0000000001", --CLEAR 
     4 => "0000000010", --RETURN HOME 
     5 => "0000000110" --ENTRY MODE SET 
@@ -118,7 +118,6 @@ begin
     clk_count_next <= clk_count_reg;
     lcd_instruction_next <= lcd_instruction_reg;
     ptr_next <= ptr_reg;
-
     case (LCD_state_reg) is
       when LCD_POWER_UP => -- Delay 50ms
         if clk_count_reg <= 50000 * freq then
@@ -141,6 +140,8 @@ begin
       when LCD_READY => clk_count_next <= 0;
                         if start = '1' then
                           lcd_instruction_next <= rs & rw & data;
+                        else
+                          lcd_instruction_next <= (others => '0');
                         end if;
       when LCD_DELAY_300NS => if clk_count_reg <= 8 then
                                 clk_count_next <= clk_count_reg + 1;

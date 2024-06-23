@@ -8,7 +8,7 @@
         <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\gowin_osc.vhd" type="vhdl"/>
         <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd" type="vhdl"/>
         <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd" type="vhdl"/>
-        <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd" type="vhdl"/>
+        <File path="Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic_system.vhd" type="vhdl"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
