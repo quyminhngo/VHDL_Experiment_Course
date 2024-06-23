@@ -3,7 +3,7 @@ library ieee;
   use ieee.numeric_std.all;
   -- Send 123456789ABCDEF to lcd
 
-entity main_system is
+entity user_logic is
   port (
     clk           : in  std_logic;
     reset_n       : in  std_logic;
@@ -18,7 +18,7 @@ entity main_system is
   );
 end entity;
 
-architecture rtl of main_system is
+architecture rtl of user_logic is
   type LINE_DATA is array (0 to 15) of std_logic_vector(7 downto 0);
   signal display_line_0, display_line_1 : LINE_DATA;
 

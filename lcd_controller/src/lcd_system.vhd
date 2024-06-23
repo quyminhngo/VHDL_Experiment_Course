@@ -46,7 +46,7 @@ begin
       ready    => ready
     );
 
-  main_system_inst: entity work.main_system
+  main_system_inst: entity work.user_logic
     port map (
       clk           => clk,
       reset_n       => reset_n,

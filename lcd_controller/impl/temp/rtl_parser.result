@@ -37,7 +37,7 @@
     "InstName" : "main_system_inst",
     "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/user_logic.vhd",
     "ModuleLine" : 6,
-    "ModuleName" : "main_system"
+    "ModuleName" : "user_logic"
    }
   ]
  }
