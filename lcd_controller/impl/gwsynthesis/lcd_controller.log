@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\LCD_GAN_DULIEU_HIENTHI.vhd'
+Analyzing entity 'lcd_gan_dulieu_hienthi'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\LCD_GAN_DULIEU_HIENTHI.vhd":7)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\LCD_GAN_DULIEU_HIENTHI.vhd":13)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\gowin_osc.vhd'
+Analyzing entity 'gowin_osc'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\gowin_osc.vhd":13)
+Analyzing architecture 'behavioral'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\gowin_osc.vhd":19)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd'
+Analyzing entity 'lcd_controller'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":5)
+Analyzing architecture 'rtl_lcd_controller'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":27)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd'
+Analyzing entity 'main_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd":6)
+Analyzing architecture 'rtl'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd":21)
+Analyzing VHDL file 'Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd'
+Analyzing entity 'lcd_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd":5)
+Analyzing architecture 'rtl_lcd_system'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd":15)
+Processing 'lcd_system(rtl_lcd_system)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd":5)
+Processing 'Gowin_OSC(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\gowin_osc.vhd":13)
+Processing 'LCD_GAN_DULIEU_HIENTHI(Behavioral)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\LCD_GAN_DULIEU_HIENTHI.vhd":7)
+Processing 'lcd_controller(RTL_LCD_controller)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":5)
+'others' clause is never selected("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_controller.vhd":157)
+Processing 'main_system(rtl)'("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\user_logic.vhd":6)
+NOTE  (EX0101) : Current top module is "lcd_system"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "LCD_GAN_DULIEU_HIENTHI" instantiated to "lcd_gan_dulieu_hienthi_inst" is swept in optimizing("Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\src\lcd_system.vhd":25)
+[95%] Generate netlist file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\impl\gwsynthesis\lcd_controller.vg" completed
+[100%] Generate report file "Q:\Digital_IC_Design\VDHL_Experiment_Design_Course\lcd_controller\impl\gwsynthesis\lcd_controller_syn.rpt.html" completed
+GowinSynthesis finish

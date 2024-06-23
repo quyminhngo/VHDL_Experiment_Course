@@ -1,0 +1,33 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.9 Beta-4 Education
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9
+//Device Version: C
+//Created Time: Sat 06 22 16:38:20 2024
+
+IO_LOC "lcd_data[7]" 77;
+IO_PORT "lcd_data[7]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_data[6]" 76;
+IO_PORT "lcd_data[6]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_data[5]" 75;
+IO_PORT "lcd_data[5]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_data[4]" 74;
+IO_PORT "lcd_data[4]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_data[3]" 73;
+IO_PORT "lcd_data[3]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_data[2]" 72;
+IO_PORT "lcd_data[2]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_data[1]" 71;
+IO_PORT "lcd_data[1]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_data[0]" 70;
+IO_PORT "lcd_data[0]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_rw" 31;
+IO_PORT "lcd_rw" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_rs" 32;
+IO_PORT "lcd_rs" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "lcd_e" 49;
+IO_PORT "lcd_e" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "reset_n" 63;
+IO_PORT "reset_n" PULL_MODE=UP BANK_VCCIO=1.8;

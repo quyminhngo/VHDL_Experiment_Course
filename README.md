@@ -124,7 +124,7 @@ Timing Diagram
 - System 
 - Data-Path 
 ### System 2 - Multiplier using Adder-Shifter Algorithms
-### System 3 - Fibonacy Number System
+### System 3 - Fibonacy Number Calculator System
 - Spec: 
 - System Diagram:
 - Algorithms: we use the dynamic programming technique to implement this problem.
@@ -171,6 +171,7 @@ op:
   
 
 # Chapter 12: Register-Transfer Methodology: Practice
+- The FSDM-base system is more clear, flexibility, 
 
 
 

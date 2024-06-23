@@ -1,0 +1,44 @@
+[
+ {
+  "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_system.vhd",
+  "InstLine" : 5,
+  "InstName" : "lcd_system",
+  "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_system.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "lcd_system",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_system.vhd",
+    "InstLine" : 21,
+    "InstName" : "gowin_osc_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/gowin_osc.vhd",
+    "ModuleLine" : 13,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_system.vhd",
+    "InstLine" : 25,
+    "InstName" : "lcd_gan_dulieu_hienthi_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/LCD_GAN_DULIEU_HIENTHI.vhd",
+    "ModuleLine" : 7,
+    "ModuleName" : "LCD_GAN_DULIEU_HIENTHI"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_system.vhd",
+    "InstLine" : 31,
+    "InstName" : "lcd_controller",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_controller.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "lcd_controller"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/lcd_system.vhd",
+    "InstLine" : 49,
+    "InstName" : "main_system_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/lcd_controller/src/user_logic.vhd",
+    "ModuleLine" : 6,
+    "ModuleName" : "main_system"
+   }
+  ]
+ }
+]
