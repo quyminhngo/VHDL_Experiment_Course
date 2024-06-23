@@ -1,0 +1,68 @@
+[
+ {
+  "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+  "InstLine" : 13,
+  "InstName" : "Gowin_CLKDIV",
+  "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/gowin_clkdiv/gowin_clkdiv5.vhd",
+  "ModuleLine" : 13,
+  "ModuleName" : "Gowin_CLKDIV"
+ },
+ {
+  "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+  "InstLine" : 5,
+  "InstName" : "main_system",
+  "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "main_system",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+    "InstLine" : 30,
+    "InstName" : "gowin_osc_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/gowin_osc/gowin_osc.vhd",
+    "ModuleLine" : 13,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+    "InstLine" : 34,
+    "InstName" : "enable_1hz_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/sys/Enable_1Hz.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Enable_1Hz"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+    "InstLine" : 40,
+    "InstName" : "bcd_counter_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/BCD_counter.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "BCD_counter"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+    "InstLine" : 49,
+    "InstName" : "lcd_gan_dulieu_hienthi_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/lcd_controller/LCD_GAN_DULIEU_HIENTHI.vhd",
+    "ModuleLine" : 7,
+    "ModuleName" : "LCD_GAN_DULIEU_HIENTHI"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+    "InstLine" : 57,
+    "InstName" : "user_logic_system_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/lcd_controller/user_logic_system.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "user_logic_system"
+   },
+   {
+    "InstFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/main_system.vhd",
+    "InstLine" : 69,
+    "InstName" : "lcd_controller_inst",
+    "ModuleFile" : "Q:/Digital_IC_Design/VDHL_Experiment_Design_Course/LCD_display_Counter/src/lcd_controller/lcd_controller.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "lcd_controller"
+   }
+  ]
+ }
+]

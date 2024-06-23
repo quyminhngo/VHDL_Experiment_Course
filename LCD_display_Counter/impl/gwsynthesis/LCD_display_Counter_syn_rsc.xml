@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="main_system">
+ <SubModule name="gowin_osc_inst"/>
+ <SubModule name="enable_1hz_inst" Register="25" Lut="69"/>
+ <SubModule name="bcd_counter_inst" Register="12" Lut="15"/>
+ <SubModule name="user_logic_system_inst" Register="6" Lut="21"/>
+ <SubModule name="lcd_controller_inst" Register="51" Lut="180"/>
+</Module>

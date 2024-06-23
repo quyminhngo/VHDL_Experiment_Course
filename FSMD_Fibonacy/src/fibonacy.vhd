@@ -50,7 +50,6 @@ begin
     i_next <= i_reg;
 
     case FSM_state_reg is
-
       when idel =>
         if start = '1' and unsigned(n) <= N_MAX then -- the maximum input is 47, if n > 47 the result will be 0.
           fib_next <= (others => '0');
@@ -86,7 +85,7 @@ begin
     end if;
   end process;
 
-  CP_NEXT_STATE: process (FSM_state_reg, start, i_next,n)
+  CP_NEXT_STATE: process (FSM_state_reg, start, i_next, n)
   begin
     case (FSM_state_reg) is
       when idel =>

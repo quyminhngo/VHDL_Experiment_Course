@@ -1,9 +1,8 @@
 library ieee;
   use ieee.std_logic_1164.all;
   use ieee.numeric_std.all;
-  -- Send 123456789ABCDEF to lcd
 
-entity user_logic is
+entity user_logic_system is
   port (
     clk           : in  std_logic;
     reset_n       : in  std_logic;
@@ -14,20 +13,19 @@ entity user_logic is
     rw            : out std_logic;
     line_0_buffer : in  std_logic_vector(127 downto 0);
     line_1_buffer : in  std_logic_vector(127 downto 0)
-
   );
 end entity;
 
-architecture rtl of user_logic is
+architecture RTL_logic_user_system of user_logic_system is
+  type FSM_MACHINE is (IDEL);
   type LINE_DATA is array (0 to 15) of std_logic_vector(7 downto 0);
   signal display_line_0, display_line_1 : LINE_DATA;
-
   constant line_0_addr : std_logic_vector(7 downto 0) := x"80";
   constant line_1_addr : std_logic_vector(7 downto 0) := x"C0";
+
   signal count_reg, count_next : unsigned(5 downto 0);
 
 begin
-
   ASSIGN_PROC: process (line_0_buffer, line_1_buffer)
   begin
     for I in 0 to 15 loop
@@ -45,45 +43,37 @@ begin
     end if;
   end process;
 
-  TRANSMIT_PROC: process (clk, ready, reset_n, count_reg)
+  COMB_PROC_PROC: process(display_line_0, display_line_1, count_reg, ready, count_next)
   begin
-    
-    if reset_n = '0' then
-      start <= '0';
-    elsif rising_edge(clk) then
-      if ready = '1' and count_reg <= 33 then
-        count_next <= count_reg + 1;
-        start <= '1';
-        if count_reg = 0 then
-          data <= line_0_addr;
-          rs <= '0';
-          rw <= '0';
-        elsif count_reg <= 16 then
-          data <= display_line_0(to_integer(count_reg) - 1);
-          rs <= '1';
-          rw <= '0';
-        elsif count_reg = 17 then
-          data <= line_1_addr;
-          rs <= '0';
-          rw <= '0';
-        else
-          data <= display_line_1(to_integer(count_reg) - 18);
-          rs <= '1';
-          rw <= '0';
-          start <= '0';
-        end if;
-      elsif count_reg > 33 then
-        data <= (others => '0');
+    count_next <= count_reg;
+    start <= '0';
+    data <= (others => '0');
+    rs <= '0';
+    rw <= '0';
+    if ready = '1' and count_reg <= 34 then
+      count_next <= count_reg + 1;
+      start <= '1';
+      if count_next = 0 then
         rs <= '0';
         rw <= '0';
-        start <= '0';
-        count_next <= count_reg;
+        data <= line_0_addr;
+      elsif count_next <= 16 then
+        rs <= '1';
+        rw <= '0';
+        data <= display_line_0(to_integer(count_reg) - 1);
+      elsif count_next = 17 then
+        rs <= '0';
+        rw <= '0';
+        data <= line_1_addr;
+      elsif count_next <= 34 then
+        rs <= '1';
+        rw <= '0';
+        data <= display_line_1(to_integer(count_reg) - 17);
       else
-        count_next <= count_reg;
-        start <= '0';
+        rs <= '0';
+        rw <= '0';
+        data <= "00000010";
       end if;
-    else
-      --count_next <= count_reg;
     end if;
 
   end process;
